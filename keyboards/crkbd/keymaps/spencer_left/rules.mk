@@ -5,5 +5,4 @@ ifeq ($(strip $(PIMORONI_TRACKBALL_ENABLE)), yes)
     QUANTUM_LIB_SRC += i2c_master.c
 endif
 
-OLED_ENABLE = yes
-OLED_DRIVER = SSD1306
+COMBO_ENABLE = yes
